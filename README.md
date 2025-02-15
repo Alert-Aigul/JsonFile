@@ -1,11 +1,11 @@
 # Installing
 ```
-pip install json_file
+pip install easy_json_file
 ```
 
 # Example
 ```py
-from json_file import JsonFile
+from easy_json_file import JsonFile
 
 with JsonFile("info.json") as info:
     config["hello"] = "world"

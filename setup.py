@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as stream:
     long_description = stream.read()
     
-with open(f'json_file/__init__.py') as fp:
+with open(f'easy_json_file/__init__.py') as fp:
     __version__ = search("'" + (r"\d*." * 5) + "'", 
                          fp.read()).group().replace("'", '')
 
