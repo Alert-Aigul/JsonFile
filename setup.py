@@ -28,8 +28,7 @@ setup(
         "python",
         "python3",
         "python3.x",
-        "alert",
-        "ed",
+        "alertaigul",
         "tool"
     ],
     install_requires=[
