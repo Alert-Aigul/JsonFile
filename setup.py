@@ -10,7 +10,7 @@ with open(f'easy_json_file/__init__.py') as fp:
                          fp.read()).group().replace("'", '')
 
 setup(
-    name="json_file",
+    name="easy_json_file",
     version=__version__,
     url="https://github.com/Alert-Aigul/JsonFile",
     download_url="https://github.com/Alert-Aigul/JsonFile/archive/refs/heads/main.zip",
